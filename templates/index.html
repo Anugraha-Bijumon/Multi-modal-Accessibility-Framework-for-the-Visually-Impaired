@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Braille App - Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #2a2a72, #009ffd);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #2a2a72;
+            margin-bottom: 30px;
+        }
+
+        .nav-link {
+            display: block;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            padding: 15px 0;
+            border-radius: 8px;
+            margin: 15px 0;
+            transition: background 0.3s ease;
+            font-size: 18px;
+        }
+
+        .nav-link:hover {
+            background-color: #0056b3;
+        }
+
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            .nav-link {
+                font-size: 16px;
+                padding: 12px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Welcome to the Braille App</h1>
+        <a href="/text-to-braille" class="nav-link">Text to Braille</a>
+        <a href="/braille-to-text" class="nav-link">Braille to Text</a>
+    </div>
+
+</body>
+</html>
