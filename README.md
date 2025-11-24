@@ -6,18 +6,17 @@ This project presents an intelligent assistive system designed to support visual
 
 # Key Features
 
--  **Text Summarization**
+**Text Summarization**
   - Abstractive Models: **T5, PEGASUS, BART, BERT**
   - Extractive Models: **TextRank, LSA, Luhn**
--  **Braille Conversion**
+**Braille Conversion**
   - Converts summaries into Unicode Braille patterns
   - Supports refreshable Braille display & printing
--  **Text-to-Speech (TTS)**
+**Text-to-Speech (TTS)**
   - Uses Google Text-to-Speech (gTTS) for audio output
-- **Bidirectional Conversion**
+**Bidirectional Conversion**
   - **Braille ➝ English** and **English ➝ Braille**
-- **Model Evaluation**
+**Model Evaluation**
   - ROUGE, BLEU, Levenshtein distance metrics
 ---
 
-## 📦 System Architecture
